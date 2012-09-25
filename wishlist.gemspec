@@ -1,0 +1,29 @@
+# -*- encoding: utf-8 -*-
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'wishlist/version'
+
+Gem::Specification.new do |gem|
+  gem.name          = "wishlist"
+  gem.version       = Wishlist::VERSION
+  gem.authors       = ["Ivan Malijkh"]
+  gem.email         = ["ivan@lesslines.com"]
+  gem.description   = %q{Wishlist API Wrapper}
+  gem.summary       = %q{Wishlist API Wrapper}
+  gem.homepage      = "http://lesslines.com"
+  
+  gem.add_dependency 'mechanize'
+  gem.add_dependency 'yajl-ruby'
+  
+  gem.add_development_dependency 'guard'
+  gem.add_development_dependency 'guard-bundler'
+  gem.add_development_dependency 'guard-minitest'
+  gem.add_development_dependency 'turn'
+  gem.add_development_dependency 'minitest'
+  gem.add_development_dependency 'rake'
+
+  gem.files         = `git ls-files`.split($/)
+  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.require_paths = ["lib"]
+end
