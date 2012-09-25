@@ -21,6 +21,8 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'turn'
   gem.add_development_dependency 'minitest'
   gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'pry'
+  gem.add_development_dependency 'rb-fsevent', '~> 0.9.1'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
