@@ -50,7 +50,7 @@ module Wishlist
     
     def initialize_mechanize
       @agent = Mechanize.new { |agent| 
-        agent.user_agent_alias = 'Mac Safari'
+        agent.user_agent_alias = 'Mechanize'
         if defined?(Rails)
           agent.log = Logger.new('log/mechanize.log')
         end
