@@ -3,7 +3,7 @@ module Wishlist
     
     def initialize(client, options = {})
       super
-      @path = '/members'
+      @endpoint = '/members'
     end
 
     # GET /members

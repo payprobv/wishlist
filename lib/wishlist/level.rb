@@ -6,7 +6,7 @@ module Wishlist
     
     def initialize(client, options = {})
       super
-      @path = '/levels'
+      @endpoint = '/levels'
     end
     
     # GET /levels
@@ -34,6 +34,14 @@ module Wishlist
     # DELETE /levels/{level_id}
     def delete(level_id)
       agent.delete path(level_id)
+    end
+    
+    def path(member_id = nil)
+      if member_id
+        return "#{client.url}#{endpoint % [options[:level_id]]}/#{member_id}"
+      else
+        return "#{client.url}#{endpoint % [options[:level_id]]}"
+      end
     end
     
   end
