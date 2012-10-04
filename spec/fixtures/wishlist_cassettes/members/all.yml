@@ -1,0 +1,64 @@
+--- 
+recorded_with: VCR 2.2.5
+http_interactions: 
+- request: 
+    method: get
+    uri: http://www.dieetboekonline.nl/?/wlmapi/2.0/json/members
+    body: 
+      string: ""
+    headers: 
+      Accept-Language: 
+      - en-us,en;q=0.5
+      Cookie: 
+      - lock=ffd4e8f55d4cda03111deb16f81377ff; 84b4efc01ab8f5f9ebf5dfa1a4c371c9=5debc29e30782f1a44243f0ba0f6203a
+      Accept-Encoding: 
+      - gzip,deflate,identity
+      User-Agent: 
+      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
+      Keep-Alive: 
+      - 300
+      Host: 
+      - www.dieetboekonline.nl
+      Accept: 
+      - "*/*"
+      Connection: 
+      - keep-alive
+      Accept-Charset: 
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Thu, 04 Oct 2012 13:09:28 GMT
+      Set-Cookie: 
+      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+      Content-Length: 
+      - "291"
+      Server: 
+      - Apache/2
+      Content-Type: 
+      - text/plain
+      Keep-Alive: 
+      - timeout=1, max=100
+      Content-Encoding: 
+      - gzip
+      Vary: 
+      - Accept-Encoding,User-Agent
+      Connection: 
+      - Keep-Alive
+      X-Powered-By: 
+      - PHP/5.3.17
+    body: 
+      string: !binary |
+        H4sIAAAAAAAAA42STWvDMAyG/8rQObS4+WpyymX0uMFya4tJYjVLie1gO4US
+        8t/nrBkBdy29ifeV9EhCA+i+qlBrSIkHHHmJysbDHEK6H6BhkAIBD3qNiray
+        boQVdN+hmpQ/A3nRtNY4o5IosrI3BlUh2KnR3yvR2jTKpUJqUw7rmXRYExi9
+        GeG7iBzZ206ya1u4jPpXfZXhL4zAZZz1pRBYcynY3SKLldWTtqokf4AIFkTo
+        Irri2ilpUBtKXMakZreEx/OHS/PIbW6QdxSDkJXVqcQNYrQNSbwp4iBIkoRV
+        ZJugf099rei/YaJlmPjJphuXefOy1v5a2wjUT44Zw3gcvenDOqkMMnpBVdqv
+        3MPuPbc1nx9fORzHH7n97aa8AgAA
+
+    http_version: 
+  recorded_at: Thu, 04 Oct 2012 13:09:29 GMT
