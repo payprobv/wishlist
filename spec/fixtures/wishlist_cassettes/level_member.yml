@@ -1,4 +1,5 @@
 --- 
+recorded_with: VCR 2.2.5
 http_interactions: 
 - request: 
     method: get
@@ -6,49 +7,49 @@ http_interactions:
     body: 
       string: ""
     headers: 
+      Connection: 
+      - keep-alive
       Accept: 
       - "*/*"
       Accept-Language: 
       - en-us,en;q=0.5
-      User-Agent: 
-      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
-      Connection: 
-      - keep-alive
-      Host: 
-      - www.dieetboekonline.nl
-      Accept-Encoding: 
-      - gzip,deflate,identity
-      Keep-Alive: 
-      - 300
       Cookie: 
       - lock=719832deddb033a07649672b85221d90; 3b55b40c89d82533b668dd8310d029d2=43e302115856e32be09a8b950a4321a0
+      User-Agent: 
+      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
+      Accept-Encoding: 
+      - gzip,deflate,identity
       Accept-Charset: 
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Host: 
+      - www.dieetboekonline.nl
+      Keep-Alive: 
+      - 300
   response: 
     status: 
       code: 200
       message: OK
     headers: 
+      Date: 
+      - Thu, 04 Oct 2012 12:41:40 GMT
+      X-Powered-By: 
+      - PHP/5.3.17
+      Connection: 
+      - Keep-Alive
+      Content-Type: 
+      - text/plain
+      Server: 
+      - Apache/2
       Content-Length: 
       - "431"
       Set-Cookie: 
       - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
-      Date: 
-      - Thu, 04 Oct 2012 12:41:40 GMT
-      Server: 
-      - Apache/2
-      X-Powered-By: 
-      - PHP/5.3.17
       Vary: 
       - Accept-Encoding,User-Agent
-      Connection: 
-      - Keep-Alive
       Content-Encoding: 
       - gzip
       Keep-Alive: 
       - timeout=1, max=100
-      Content-Type: 
-      - text/plain
     body: 
       string: !binary |
         H4sIAAAAAAAAA3WSTU/DMAyG/wrKGWkMdkA7M3HhgAQIAUNWmnglIl84yQAh
@@ -70,49 +71,49 @@ http_interactions:
     body: 
       string: ""
     headers: 
+      Connection: 
+      - keep-alive
       Accept: 
       - "*/*"
       Accept-Language: 
       - en-us,en;q=0.5
-      User-Agent: 
-      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
-      Connection: 
-      - keep-alive
-      Host: 
-      - www.dieetboekonline.nl
-      Accept-Encoding: 
-      - gzip,deflate,identity
-      Keep-Alive: 
-      - 300
-      Accept-Charset: 
-      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Cookie: 
       - lock=3b45fa3f88450c2d1554e1d574374c4d; 69329c2ca6d5fea90b1f44a180cb4870=f70db1cd78a31ac20d5df9dfb437b0c7
+      User-Agent: 
+      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
+      Accept-Encoding: 
+      - gzip,deflate,identity
+      Accept-Charset: 
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Host: 
+      - www.dieetboekonline.nl
+      Keep-Alive: 
+      - 300
   response: 
     status: 
       code: 404
       message: Not Found
     headers: 
+      Date: 
+      - Thu, 04 Oct 2012 12:53:32 GMT
+      X-Powered-By: 
+      - PHP/5.3.17
+      Connection: 
+      - Keep-Alive
+      Content-Type: 
+      - text/plain
+      Server: 
+      - Apache/2
       Content-Length: 
       - "91"
       Set-Cookie: 
       - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
-      Date: 
-      - Thu, 04 Oct 2012 12:53:32 GMT
-      Server: 
-      - Apache/2
-      X-Powered-By: 
-      - PHP/5.3.17
       Vary: 
       - Accept-Encoding,User-Agent
-      Connection: 
-      - Keep-Alive
       Content-Encoding: 
       - gzip
       Keep-Alive: 
       - timeout=1, max=100
-      Content-Type: 
-      - text/plain
     body: 
       string: !binary |
         H4sIAAAAAAAAA6tWKi5NTk4tLlayMtBRcg0K8g+Kd/Z3cVWyMjM1NTGBCilZ
@@ -127,49 +128,49 @@ http_interactions:
     body: 
       string: ""
     headers: 
+      Connection: 
+      - keep-alive
       Accept: 
       - "*/*"
       Accept-Language: 
       - en-us,en;q=0.5
-      User-Agent: 
-      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
-      Connection: 
-      - keep-alive
-      Host: 
-      - www.dieetboekonline.nl
-      Accept-Encoding: 
-      - gzip,deflate,identity
-      Keep-Alive: 
-      - 300
-      Accept-Charset: 
-      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Cookie: 
       - lock=e66af8337785f79b3832436fa0dbd8f7; 90d7eef6a5f2fe08b4f0b9a9f4d6bb74=11ad154436c3c73ab9419c0254109799
+      User-Agent: 
+      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
+      Accept-Encoding: 
+      - gzip,deflate,identity
+      Accept-Charset: 
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Host: 
+      - www.dieetboekonline.nl
+      Keep-Alive: 
+      - 300
   response: 
     status: 
       code: 404
       message: Not Found
     headers: 
-      Content-Length: 
-      - "91"
       Date: 
       - Thu, 04 Oct 2012 12:54:23 GMT
-      Set-Cookie: 
-      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
       X-Powered-By: 
       - PHP/5.3.17
-      Server: 
-      - Apache/2
       Connection: 
       - Keep-Alive
+      Content-Type: 
+      - text/plain
+      Server: 
+      - Apache/2
+      Content-Length: 
+      - "91"
+      Set-Cookie: 
+      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
       Vary: 
       - Accept-Encoding,User-Agent
       Content-Encoding: 
       - gzip
       Keep-Alive: 
       - timeout=1, max=100
-      Content-Type: 
-      - text/plain
     body: 
       string: !binary |
         H4sIAAAAAAAAA6tWKi5NTk4tLlayMtBRcg0K8g+Kd/Z3cVWyMjM1NTGBCilZ
@@ -178,4 +179,63 @@ http_interactions:
 
     http_version: 
   recorded_at: Thu, 04 Oct 2012 12:54:25 GMT
-recorded_with: VCR 2.2.5
+- request: 
+    method: get
+    uri: http://www.dieetboekonline.nl/?/wlmapi/2.0/json/levels/1343822180/members/5
+    body: 
+      string: ""
+    headers: 
+      Connection: 
+      - keep-alive
+      Cookie: 
+      - lock=02274aa49c99b633fc5a0e5f654a4091; 1c92334375377257976e29e3dcf40c0c=a04af5b571ed42810e1abc7955318476
+      Accept: 
+      - "*/*"
+      Accept-Language: 
+      - en-us,en;q=0.5
+      User-Agent: 
+      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
+      Accept-Encoding: 
+      - gzip,deflate,identity
+      Accept-Charset: 
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Host: 
+      - www.dieetboekonline.nl
+      Keep-Alive: 
+      - 300
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Content-Type: 
+      - text/plain
+      Date: 
+      - Thu, 04 Oct 2012 13:04:16 GMT
+      X-Powered-By: 
+      - PHP/5.3.17
+      Connection: 
+      - Keep-Alive
+      Server: 
+      - Apache/2
+      Content-Length: 
+      - "240"
+      Set-Cookie: 
+      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+      Keep-Alive: 
+      - timeout=1, max=100
+      Content-Encoding: 
+      - gzip
+      Vary: 
+      - Accept-Encoding,User-Agent
+    body: 
+      string: !binary |
+        H4sIAAAAAAAAA12QQYvCMBCF/8uco9i6aunJxQYRPAhW9rBIie0ogSQNSVoU
+        6X/fqa6iXgbe9zKPebmCb8oSvYc0YqBRH9BBegVZQQoTYNB4dIWqT9IQsOJi
+        XR3QhyJ6eKiFVOT1dH5/MDSKXIUtqj5rIUyJSiFFHoXyyP5JJgI+0QZNJc3p
+        qXdmUZujdPpljZ+tdJ/68hbzXQbZkgyuIbUNIjRU7ffB9wxyqelSoS01Hn/N
+        pvFsOkoIn80qoxo/68FkQMY4ieMoGUHXMfoia2sXsCpadIdb3pLnVHGz62fG
+        1zznsO/+AHpKdEBNAQAA
+
+    http_version: 
+  recorded_at: Thu, 04 Oct 2012 13:04:17 GMT
