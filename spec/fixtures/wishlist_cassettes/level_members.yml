@@ -11,45 +11,45 @@ http_interactions:
       - www.dieetboekonline.nl
       Accept-Charset: 
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
-      Accept: 
-      - "*/*"
       Accept-Encoding: 
       - gzip,deflate,identity
       Cookie: 
       - lock=8ef436b22493b56abc51cd91dece6b32; f38f1beae8c691ddb1e94b7cc2960fd6=e5335ee05a1b293207948f68871373ab
       Accept-Language: 
       - en-us,en;q=0.5
+      Accept: 
+      - "*/*"
       User-Agent: 
       - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
-      Connection: 
-      - keep-alive
       Keep-Alive: 
       - 300
+      Connection: 
+      - keep-alive
   response: 
     status: 
       code: 200
       message: OK
     headers: 
-      Content-Type: 
-      - text/plain
-      X-Powered-By: 
-      - PHP/5.3.17
-      Date: 
-      - Thu, 04 Oct 2012 12:41:06 GMT
-      Set-Cookie: 
-      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
-      Content-Encoding: 
-      - gzip
       Vary: 
       - Accept-Encoding,User-Agent
       Content-Length: 
       - "431"
-      Connection: 
-      - Keep-Alive
-      Keep-Alive: 
-      - timeout=1, max=100
+      Set-Cookie: 
+      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+      Date: 
+      - Thu, 04 Oct 2012 12:41:06 GMT
+      Content-Encoding: 
+      - gzip
       Server: 
       - Apache/2
+      Keep-Alive: 
+      - timeout=1, max=100
+      Content-Type: 
+      - text/plain
+      X-Powered-By: 
+      - PHP/5.3.17
+      Connection: 
+      - Keep-Alive
     body: 
       string: !binary |
         H4sIAAAAAAAAA3WSTU/DMAyG/wrKGWkMdkA7M3HhgAQIAUNWmnglIl84yQAh
@@ -75,45 +75,45 @@ http_interactions:
       - www.dieetboekonline.nl
       Accept-Charset: 
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
-      Accept: 
-      - "*/*"
       Accept-Encoding: 
       - gzip,deflate,identity
       Cookie: 
       - lock=b06fd7fda025bd6a2d554adccbd9e448; 752dfc03b819ab5d8b52f95d0c05a018=dece76edec10f3c858f8801f0c16b066
       Accept-Language: 
       - en-us,en;q=0.5
+      Accept: 
+      - "*/*"
       User-Agent: 
       - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
-      Connection: 
-      - keep-alive
       Keep-Alive: 
       - 300
+      Connection: 
+      - keep-alive
   response: 
     status: 
       code: 200
       message: OK
     headers: 
-      Content-Type: 
-      - text/plain
-      X-Powered-By: 
-      - PHP/5.3.17
-      Date: 
-      - Thu, 04 Oct 2012 12:41:10 GMT
-      Set-Cookie: 
-      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
-      Content-Encoding: 
-      - gzip
       Vary: 
       - Accept-Encoding,User-Agent
       Content-Length: 
       - "399"
-      Connection: 
-      - Keep-Alive
-      Keep-Alive: 
-      - timeout=1, max=100
+      Set-Cookie: 
+      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+      Date: 
+      - Thu, 04 Oct 2012 12:41:10 GMT
+      Content-Encoding: 
+      - gzip
       Server: 
       - Apache/2
+      Keep-Alive: 
+      - timeout=1, max=100
+      Content-Type: 
+      - text/plain
+      X-Powered-By: 
+      - PHP/5.3.17
+      Connection: 
+      - Keep-Alive
     body: 
       string: !binary |
         H4sIAAAAAAAAA4XVXW+CMBQG4L/S9JpF+gEFL5eZZVdboldTYxBOIrF8BNBd
@@ -128,3 +128,62 @@ http_interactions:
 
     http_version: 
   recorded_at: Thu, 04 Oct 2012 12:41:11 GMT
+- request: 
+    method: get
+    uri: http://www.dieetboekonline.nl/?/wlmapi/2.0/json/levels/1343822180/members
+    body: 
+      string: ""
+    headers: 
+      Accept-Charset: 
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Host: 
+      - www.dieetboekonline.nl
+      Cookie: 
+      - lock=ac17bd9ae4835bac3213a0233a3a43ef; a7623901029b3361f0fed304e65b730e=d6319345761a01bbdf3df84ac22f6ec1
+      Accept-Encoding: 
+      - gzip,deflate,identity
+      Accept-Language: 
+      - en-us,en;q=0.5
+      User-Agent: 
+      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
+      Accept: 
+      - "*/*"
+      Keep-Alive: 
+      - 300
+      Connection: 
+      - keep-alive
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Vary: 
+      - Accept-Encoding,User-Agent
+      Content-Length: 
+      - "191"
+      Set-Cookie: 
+      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+      Content-Encoding: 
+      - gzip
+      Date: 
+      - Thu, 04 Oct 2012 12:53:29 GMT
+      Server: 
+      - Apache/2
+      Keep-Alive: 
+      - timeout=1, max=100
+      X-Powered-By: 
+      - PHP/5.3.17
+      Content-Type: 
+      - text/plain
+      Connection: 
+      - Keep-Alive
+    body: 
+      string: !binary |
+        H4sIAAAAAAAAA5WQPQuDMBCG/8vNoTZaUZxcSscW6mYk+HEUITGSqFAk/71X
+        tEuHQrfjfY57uHcFN7ctOgcZZ6BRN2hpXvcRsnKFvoMMYmAwO7RSmUc/UDDW
+        z9GaCd0k+YehrntF7J3m28JhUESlNhYlEREoXFA5EfDoFKVhyNOjCHavCGLw
+        bBcmP4Tht3BjuaJHVD+gO7RG/6FNwFeeURXjaOyEnVzQNlRDCZdzQXdu13sB
+        lX8BxllJVy0BAAA=
+
+    http_version: 
+  recorded_at: Thu, 04 Oct 2012 12:53:30 GMT

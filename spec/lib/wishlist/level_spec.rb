@@ -19,13 +19,23 @@ describe Wishlist::Level do
     it "gets all levels" do
       @wishlist.levels.all.must_be_instance_of Hash
     end
+
+  end
+  
+  
+  describe "GET /levels/{level_id}" do
+    before do
+      VCR.insert_cassette 'level', :record => :new_episodes
+    end
+    after do
+      VCR.eject_cassette
+    end
     
-    it "get one level" do
+    it "gets level" do
       level = @wishlist.levels.find(1344242131)
       level.must_be_instance_of Hash
       level['id'].must_equal '1344242131'
     end
-
   end
   
 end

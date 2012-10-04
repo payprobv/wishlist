@@ -1,0 +1,67 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: http://www.dieetboekonline.nl/?/wlmapi/2.0/json/levels/1344242131
+    body: 
+      string: ""
+    headers: 
+      Accept: 
+      - "*/*"
+      Keep-Alive: 
+      - 300
+      Accept-Encoding: 
+      - gzip,deflate,identity
+      Host: 
+      - www.dieetboekonline.nl
+      Accept-Charset: 
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      User-Agent: 
+      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
+      Cookie: 
+      - lock=2fef9b3d64a877e0e5d7f5c6664ca26a; f496f5755611fb852d6581154ffaed57=b821c2d523916602e7fc6dc45bdd9d5c
+      Accept-Language: 
+      - en-us,en;q=0.5
+      Connection: 
+      - keep-alive
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Set-Cookie: 
+      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+      Date: 
+      - Thu, 04 Oct 2012 12:50:53 GMT
+      X-Powered-By: 
+      - PHP/5.3.17
+      Server: 
+      - Apache/2
+      Keep-Alive: 
+      - timeout=1, max=100
+      Content-Length: 
+      - "431"
+      Vary: 
+      - Accept-Encoding,User-Agent
+      Content-Encoding: 
+      - gzip
+      Content-Type: 
+      - text/plain
+      Connection: 
+      - Keep-Alive
+    body: 
+      string: !binary |
+        H4sIAAAAAAAAA3WSTU/DMAyG/wrKGWkMdkA7M3HhgAQIAUNWmnglIl84yQAh
+        /jtOujImtkvV+rFd+/X7JVJRClMS8+mxsLhGK+ZfwmgxF9Oz2ex0djo9m4pj
+        4aVDjl0YxEyoMGb0RxrRHp0zJexNyiSzCR4KcQ9xfXP/8PjJTK4yEtjQGw+E
+        2nB1Zt7b0En7y3c67E1rY4K0FqLscRj4T1DJjH0g85/EkDIHT3bTg3Po85Ds
+        A+BHNPTZvsZXX6wdvyAimaDHYMK3wtVGWiixJ6kRcuBpxV7UNjxIHeaX2rli
+        h65jMVQovi5/0qR9KywG7xezepFtjzGGTpq6il8Zck26HSy1Y81ljBTWrGFF
+        /Eufa0U2vqAGuTk+I22S7Cw3/eBDGN9DSUgJrPGvm65/LqRZbT5TwtxY8Up6
+        hRba8bZ5Db4H0pGq8BRsNVEqXVJkeFOx8RxwyigRoQtrhBUFBw2mUXVwgbcS
+        8yexnAxkOdmadDkZ1EvcYz8fjHCQNlcdor9+OZiw9d/zNx+6xBgos8RrpC7V
+        oS8Xt1x9fVefF4urxe2CM38A0ndNTYEDAAA=
+
+    http_version: 
+  recorded_at: Thu, 04 Oct 2012 12:50:54 GMT
+recorded_with: VCR 2.2.5
