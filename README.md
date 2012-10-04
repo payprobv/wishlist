@@ -1,6 +1,6 @@
 # Wishlist
 
-TODO: Write a gem description
+Wishlist gem is a wrapper for a Wordpress Wishlist Member plugin API.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-    wishlist = Wishlist.client('www.dieetboekonline.nl', '1622787ca21b62eb4c80615001a2b410')
+    wishlist = Wishlist.client('<www.domain.cxx>', '<key>')
     
     levels = wishlist.levels.all
     level_id = levels[0]['id']
@@ -47,71 +47,71 @@ Or install it yourself as:
 ### LEVEL MEMBERS
 
     GET /levels/{level_id}/members
-    wishlist.level_members(level_id: level_id).all
+    wishlist.level_members(:level_id => level_id).all
     
     GET /levels/{level_id}/members/{member_id}
-    wishlist.level_members(level_id: level_id).find(member_id)
+    wishlist.level_members(:level_id => level_id).find(member_id)
     
     POST /levels/{level_id}/members
-    wishlist.level_members(level_id: level_id).create('users' => [id1, id2, ..., idN], 'pending' => true)
+    wishlist.level_members(:level_id => level_id).create('Users' => [id1, id2, ..., idN], 'Pending' => true)
     
     PUT /levels/{level_id}/members/{member_id}
-    wishlist.level_members(level_id: level_id).update(member_id, 'users' => [id1, id2, ..., idN])
+    wishlist.level_members(:level_id => level_id).update(member_id, 'Users' => [id1, id2, ..., idN])
     
     DELETE /levels/{level_id}/members/{member_id}
-    wishlist.level_members(level_id: level_id).delete(member_id)
+    wishlist.level_members(:level_id => level_id).delete(member_id)
 
 
 
 ### POSTS
 
     GET /levels/{level_id}/posts
-    wishlist.posts(level_id: level_id).all
+    wishlist.posts(:level_id => level_id).all
     
     POST /levels/{level_id}/posts
-    wishlist.posts(level_id: level_id).create('contentids' => [id1, id2, ..., idN])
+    wishlist.posts(:level_id => level_id).create('contentids' => [id1, id2, ..., idN])
     
     DELETE /levels/{level_id}/posts/{post_id}
-    wishlist.posts(level_id: level_id).delete(post_id)
+    wishlist.posts(:level_id => level_id).delete(post_id)
 
 
 
 ### PAGES
 
     GET /levels/{level_id}/pages
-    wishlist.pages(level_id: level_id).all
+    wishlist.pages(:level_id => level_id).all
     
     POST /levels/{level_id}/pages
-    wishlist.pages(level_id: level_id).create('contentids' => [id1, id2, ..., idN])
+    wishlist.pages(:level_id => level_id).create('contentids' => [id1, id2, ..., idN])
     
     DELETE /levels/{level_id}/pages/{page_id}
-    wishlist.pages(level_id: level_id).delete(page_id)
+    wishlist.pages(:level_id => level_id).delete(page_id)
 
 
 
 ### COMMENTS
 
     GET /levels/{level_id}/comments
-    wishlist.comments(level_id: level_id).all
+    wishlist.comments(:level_id => level_id).all
     
     POST /levels/{level_id}/comments
-    wishlist.comments(level_id: level_id).create('contentids' => [id1, id2, ..., idN])
+    wishlist.comments(:level_id => level_id).create('contentids' => [id1, id2, ..., idN])
     
     DELETE /levels/{level_id}/comments/{post_id}
-    wishlist.comments(level_id: level_id).delete(post_id)
+    wishlist.comments(:level_id => level_id).delete(post_id)
 
 
 
 ### CATEGORIES
 
     GET /levels/{level_id}/categories
-    wishlist.categories(level_id: level_id).all
+    wishlist.categories(:level_id => level_id).all
 
     POST /levels/{level_id}/categories
-    wishlist.categories(level_id: level_id).create('contentids' => [id1, id2, ..., idN])
+    wishlist.categories(:level_id => level_id).create('contentids' => [id1, id2, ..., idN])
 
     DELETE /levels/{level_id}/categories/{page_id}
-    wishlist.categories(level_id: level_id).delete(page_id)
+    wishlist.categories(:level_id => level_id).delete(page_id)
 
 
 

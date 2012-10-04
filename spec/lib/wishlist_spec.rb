@@ -6,7 +6,7 @@ describe Wishlist do
   end
   
   it "must return a client instance" do
-    client = Wishlist.client 'www.dieetboekonline.nl', '1622787ca21b62eb4c80615001a2b410'
+    client = Wishlist.client '', ''
     client.must_be_kind_of Wishlist::Client
   end
 end
