@@ -12,7 +12,7 @@ module Wishlist
     # GET /levels
     def all
       page = agent.get path
-      Yajl::Parser.parse(page.body)['levels']['level']
+      Yajl::Parser.parse(page.body)
     end
     
     # GET /levels/{level_id}
