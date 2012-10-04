@@ -1,0 +1,73 @@
+--- 
+recorded_with: VCR 2.2.5
+http_interactions: 
+- request: 
+    method: get
+    uri: http://www.dieetboekonline.nl/?/wlmapi/2.0/json/members/5
+    body: 
+      string: ""
+    headers: 
+      Accept-Language: 
+      - en-us,en;q=0.5
+      Cookie: 
+      - lock=05f835d8eec607f99fc1376b73c8113a; 215433c81665825af6dc850f11c0c6d6=88e92ae815e8e8d772c4f433265db1f1
+      Accept-Encoding: 
+      - gzip,deflate,identity
+      User-Agent: 
+      - Mechanize/2.5.1 Ruby/1.8.7p370 (http://github.com/tenderlove/mechanize/)
+      Keep-Alive: 
+      - 300
+      Host: 
+      - www.dieetboekonline.nl
+      Accept: 
+      - "*/*"
+      Connection: 
+      - keep-alive
+      Accept-Charset: 
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Thu, 04 Oct 2012 13:09:32 GMT
+      Set-Cookie: 
+      - wlmdebug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT
+      Content-Length: 
+      - "690"
+      Server: 
+      - Apache/2
+      Content-Type: 
+      - text/plain
+      Keep-Alive: 
+      - timeout=1, max=100
+      Content-Encoding: 
+      - gzip
+      Vary: 
+      - Accept-Encoding,User-Agent
+      Connection: 
+      - Keep-Alive
+      X-Powered-By: 
+      - PHP/5.3.17
+    body: 
+      string: !binary |
+        H4sIAAAAAAAAA9VVTW/iMBT8K8hnQHESyMepq4JWlaoVUqn2UFWWcR6stY7j
+        tZ22LOK/r52PNqWFc/cCzMx79puxLQ7I1IyBMSjHY1RCuQGN8ocDulmgHM3Q
+        GN0b0DdyW6F8QDKqjCdMvTFM86YJYXRsFPIb9g4+K+IA3XDBLQfjunQl3Hf+
+        MGx7HCMqRL+eBlqg3OoaxkjAEwgS9NBLRGn+RC2QbaXr0vSSqjeCm1/EVoqz
+        VxYKbk+ovlCDEn6kYeUJR43hO9n2E0t3r8JHy1surEeyFmKMapcXEdWOS6cr
+        ule6smAswajTJGcgaQlnZCgpF07z7FVbMJWiV2vttR5p2HHj9gYXGgoDHE6C
+        bILjEcb5LMvDqK+jzPrceCW7s+kFY6mtnTUUOKbgRgm6J91wazfAaEX3K12N
+        /HSsNrYqSdtt4E8N0nIqmhTG6FmUpNJ8d3b8Z1W2sRBW1bIJ7IBwmk7DIJ7i
+        IJviOOxcBFk498G+tRTu0P1GUZzOZzgIkncLcuW1k6WGBYKX3LaDe7KNTbeB
+        XGj2EdGi0M3zOCBWlYrKLr6Ox+9Q2CLGbVfl84X2599mI696+9oX3IEAZkfX
+        HXF0lu9Oc731r6DZ3pmP0jDEaeBRw5PmQQ6EMfrRHt6CA1gNDJQFOSoAxMi7
+        uqaSgRD+vmypMNAzi2bMjlqBLLjcveJ7eV3JLdfloG35org+xft3y3zzlw76
+        Z3PX3bSHnncPf81Ld0to6YJxHpJ5mMyD1NEvsvH183YymwzMuXgcisPYXZDs
+        Ywa9cCmD2dfPIMrm0VsGYZJlSTKwjuP4c+teuGQ9++LWsyjK0vST4+/NDTKY
+        zc9k4IRLGeDgPwghCpMzITh3x+Px0f8HKVVpCwV5Ar1pVvy+XDtvq3v/uVje
+        LtdL9Hj8B4P4JEreBwAA
+
+    http_version: 
+  recorded_at: Thu, 04 Oct 2012 13:09:33 GMT
