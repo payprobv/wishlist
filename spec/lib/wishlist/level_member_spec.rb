@@ -31,10 +31,10 @@ describe Wishlist::LevelMember do
       VCR.eject_cassette
     end
     
-    it "get one level" do
-      level = @wishlist.level_members(:level_id => 1344242131).find(5)
+    it "get one level member" do
+      level = @wishlist.level_members(:level_id => 1343822180).find(5)
       level.must_be_instance_of Hash
-      level['id'].must_equal '5'
+      level['member']['id'].must_equal '5'
     end
   end
   
