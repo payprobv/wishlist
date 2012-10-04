@@ -14,12 +14,15 @@ Gem::Specification.new do |gem|
   
   gem.add_dependency 'mechanize'
   gem.add_dependency 'yajl-ruby'
+  gem.add_dependency 'active_support'
   
   gem.add_development_dependency 'guard'
   gem.add_development_dependency 'guard-bundler'
   gem.add_development_dependency 'guard-minitest'
+  gem.add_development_dependency 'vcr'
   gem.add_development_dependency 'turn'
   gem.add_development_dependency 'minitest'
+  gem.add_development_dependency 'webmock'
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'pry'
   gem.add_development_dependency 'rb-fsevent', '~> 0.9.1'
