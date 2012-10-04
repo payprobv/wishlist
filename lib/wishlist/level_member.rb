@@ -30,9 +30,6 @@ module Wishlist
     # PUT /levels/{level_id}/members/{member_id}
     def update(member_id, data = {})
       page = agent.put path(member_id), data
-      puts agent.inspect
-      puts "========="
-      puts page.inspect
       Yajl::Parser.parse(page.body)
     end
     
