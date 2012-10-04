@@ -9,7 +9,7 @@ describe Wishlist::LevelMember do
   describe "GET /levels/{id}/members" do
     
     before do
-      VCR.insert_cassette 'level_members', :record => :new_episodes
+      VCR.insert_cassette 'level_members/all', :record => :new_episodes
     end
     
     after do
@@ -24,7 +24,7 @@ describe Wishlist::LevelMember do
   
   describe "GET /levels/{level_id}/members/{member_id}" do
     before do
-      VCR.insert_cassette 'level_member', :record => :new_episodes
+      VCR.insert_cassette 'level_members/find', :record => :new_episodes
     end
     
     after do
