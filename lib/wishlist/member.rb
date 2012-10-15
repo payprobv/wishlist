@@ -18,6 +18,19 @@ module Wishlist
       Yajl::Parser.parse(page.body)
     end
 
+    def find_by_email(email)
+      members = all
+      if members["members"].count > 0 &&
+        members["members"]["member"].count > 0 &&
+        members["members"]["member"].select{|m| m["user_email"] == email }.count == 1
+        member_id = members["members"]["member"].select{|m| m["user_email"] == email }[0]["id"].to_i
+        page = agent.get path(member_id)
+        return Yajl::Parser.parse(page.body)
+      else
+        return nil
+      end
+    end
+
     # POST /members
     def create(data = {})
       [:user_login, :user_email].each do |attribute|
